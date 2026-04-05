@@ -1,0 +1,74 @@
+{
+  "name": "ᴛʜᴀᴋᴜʀ ᴍᴜsɪᴄ",
+  "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
+  "logo": "https://files.catbox.moe/ldchnq.jpg",
+  "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "ThakurMusic",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+  "env": {
+    "API_ID": {
+      "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ https://my.telegram.org",
+      "value": "27838385",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ https://my.telegram.org",
+      "value": "0710bd2a89a41c3506f98f7e6fd7294a",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "ᴀ ʙᴏᴛ's ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "ɢᴇᴛ ᴀ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ғʀᴏᴍ https://cloud.mongodb.com.",
+      "value": "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "ᴛʜᴇ ᴜsᴇʀ ɪᴅ ᴏғ ᴜsᴇʀ ᴡʜᴏᴍ ʏᴏᴜ ᴡᴏᴜʟᴅ ʟɪᴋᴇ ᴛᴏ ᴀᴅᴅ ᴀs ᴏᴡɴᴇʀ.",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "ᴀ ᴘʏʀᴏɢʀᴀᴍ v2 sᴛʀɪɴɢ sᴇssɪᴏɴ ғʀᴏᴍ @StringSesssionGeneratorRobot ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ.",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴄᴄᴏᴜɴᴛ's ᴀᴘɪ ᴋᴇʏ",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘᴘ ɴᴀᴍᴇ",
+      "value": "",
+      "required": false
+    },
+    "LOGGER_ID": {
+      "description": "ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ɪᴅ, ᴀᴅᴅ ʏᴏᴜʀ ʙᴏᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛs!. ᴄʜᴀɴɴᴇʟ ᴋɪ ɪᴅ ᴍᴀᴛ ᴅᴀᴀʟ ᴅᴇɴᴀ ʙsᴅᴋ.",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+          },
+    {
+      "url": "heroku/nodejs"
+          },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+  "stack": "container"
+}
+
