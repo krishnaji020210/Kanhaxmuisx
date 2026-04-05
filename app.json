@@ -29,7 +29,7 @@
     },
     "MONGO_DB_URI": {
       "description": "ɢᴇᴛ ᴀ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ғʀᴏᴍ https://cloud.mongodb.com.",
-      "value": "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority",
+      "value": "",
       "required": true
     },
     "OWNER_ID": {
