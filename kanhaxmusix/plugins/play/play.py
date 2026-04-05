@@ -1,9 +1,9 @@
 # =======================================================
-# ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 🚀
+# ©️ 2025-26 All Rights Reserved by kanha x musix (Im-Notcoder) 🚀
 
 # This source code is under MIT License 📜 Unauthorized forking, importing, or using this code without giving proper credit will result in legal action ⚠️
  
-# 📩 DM for permission : @iamthakur007
+# 📩 DM for permission : @oyebabuassis
 # =======================================================
 
 import random
@@ -15,23 +15,23 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from ShrutiMusic import app
-from ShrutiMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube
-from ShrutiMusic.core.call import Nand as PURVI
-from ShrutiMusic.utils import seconds_to_min, time_to_seconds
-from ShrutiMusic.utils.channelplay import get_channeplayCB
-from ShrutiMusic.utils.decorators.language import languageCB
-from ShrutiMusic.utils.decorators.play import PlayWrapper
-from ShrutiMusic.utils.formatters import formats
-from ShrutiMusic.utils.inline import (
+from kanhaxmusix import app
+from kanhaxmusix import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube
+from kanhaxmusix.core.call import Nand as PURVI
+from kanhaxmusix.utils import seconds_to_min, time_to_seconds
+from kanhaxmusix.utils.channelplay import get_channeplayCB
+from kanhaxmusix.utils.decorators.language import languageCB
+from kanhaxmusix.utils.decorators.play import PlayWrapper
+from kanhaxmusix.utils.formatters import formats
+from kanhaxmusix.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from ShrutiMusic.utils.logger import play_logs
-from ShrutiMusic.utils.stream.stream import stream
+from kanhaxmusix.utils.logger import play_logs
+from kanhaxmusix.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
@@ -802,8 +802,8 @@ async def slider_queries(client, CallbackQuery, _):
       
 
 # ===========================================================
-# ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 😎
+# ©️ 2025-26 All Rights Reserved by kanha x musix (Im-Notcoder) 😎
 # 
-# 🧑‍💻 Developer : t.me/iamtgakur007
-# 📢 Telegram channel : t.me/vaishubots
+# 🧑‍💻 Developer : t.me/oyebabuassis
+# 📢 Telegram channel : t.me/Destructgraveryard
 # ===========================================================
