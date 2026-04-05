@@ -78,7 +78,7 @@ sudo apt-get install python3-pip -y
 sudo pip3 install -U pip
 curl -fssL
 https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
-git clone https://github.com/reetsingh886/ThakurMusic && cd ThakurMusic
+git clone https://github.com/krishnaji020210/kanhaxmusix && cd kanhaxmusix
 pip3 install -U -r requirements.txt
 bash setup
 sudo apt install tmux
