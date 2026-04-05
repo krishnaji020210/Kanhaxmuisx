@@ -25,7 +25,7 @@ dirr()
 dbb()
 heroku()
 
-app = kanha()
+app = Shashank()
 userbot = Userbot()
 
 
