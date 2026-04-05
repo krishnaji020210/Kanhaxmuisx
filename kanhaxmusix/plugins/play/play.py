@@ -1,41 +1,39 @@
-# -----------------------------------------------
-# 🔸 ShashankMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2025 – All Rights Reserved
-#
-# 📖 License:
-# This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
-#
-# ❤️ Made with dedication and love by ItzShukla
-# -----------------------------------------------
+# =======================================================
+# ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 🚀
+
+# This source code is under MIT License 📜 Unauthorized forking, importing, or using this code without giving proper credit will result in legal action ⚠️
+ 
+# 📩 DM for permission : @iamthakur007
+# =======================================================
 
 import random
-import string
 import re
+import string
+
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
+
 import config
-from ShashankMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from ShashankMusic.core.call import Shashank as PURVI
-from ShashankMusic.utils import seconds_to_min, time_to_seconds
-from ShashankMusic.utils.channelplay import get_channeplayCB
-from ShashankMusic.utils.decorators.language import languageCB
-from ShashankMusic.utils.decorators.play import PlayWrapper
-from ShashankMusic.utils.formatters import formats
-from ShashankMusic.utils.inline import (
+from ShrutiMusic import app
+from ShrutiMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube
+from ShrutiMusic.core.call import Nand as PURVI
+from ShrutiMusic.utils import seconds_to_min, time_to_seconds
+from ShrutiMusic.utils.channelplay import get_channeplayCB
+from ShrutiMusic.utils.decorators.language import languageCB
+from ShrutiMusic.utils.decorators.play import PlayWrapper
+from ShrutiMusic.utils.formatters import formats
+from ShrutiMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from ShashankMusic.utils.logger import play_logs
-from ShashankMusic.utils.stream.stream import stream
+from ShrutiMusic.utils.logger import play_logs
+from ShrutiMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
+
 
 def is_safe_url(url):
     if not url or not isinstance(url, str):
@@ -570,7 +568,8 @@ async def play_commnd(
                     reply_markup=InlineKeyboardMarkup(buttons),
                 )
                 return await play_logs(message, streamtype=f"URL Searched Inline")
-    
+
+
 @app.on_callback_query(filters.regex("MusicStream") & ~BANNED_USERS)
 @languageCB
 async def play_music(client, CallbackQuery, _):
@@ -800,5 +799,11 @@ async def slider_queries(client, CallbackQuery, _):
         return await CallbackQuery.edit_message_media(
             media=med, reply_markup=InlineKeyboardMarkup(buttons)
         )
-                                                              
-            
+      
+
+# ===========================================================
+# ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 😎
+# 
+# 🧑‍💻 Developer : t.me/iamtgakur007
+# 📢 Telegram channel : t.me/vaishubots
+# ===========================================================
