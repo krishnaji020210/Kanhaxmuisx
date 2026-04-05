@@ -20,7 +20,7 @@ from kanhaxmusix.misc import dbb, heroku
 from .logging import LOGGER
 
 # ✅ FIXED IMPORT
-from SafoneAPI import (
+from safoneapi import SafoneAPI (
     AppleAPI,
     CarbonAPI,
     SoundAPI,
