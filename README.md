@@ -3,7 +3,8 @@
 
 </h2>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ㅤ+𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+KRISHNA+𝙼𝚄𝚂𝙸𝙲+𝚁𝙴𝙿𝙾)
+[
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ㅤ+𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+KRISHNA+𝙼𝚄𝚂𝙸𝙲+𝚁𝙴𝙿𝙾) ]
 
 
 
