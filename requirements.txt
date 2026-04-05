@@ -44,6 +44,7 @@ requests
 spotipy==2.24.0
 speedtest
 speedtest-cli
+safoneapi
 tgcrypto
 unidecode
 wget
