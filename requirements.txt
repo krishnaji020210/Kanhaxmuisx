@@ -1,0 +1,53 @@
+# -----------------------------------------------
+# 🔸 KANHAXMUSIX Project
+# 🔹 Developed & Maintained by: KRISHNA (https://github.com/Krishnaji020210)
+# 📅 Copyright © 2025 – All Rights Reserved
+#
+# 📖 License:
+# This source code is open for educational and non-commercial use ONLY.
+# You are required to retain this credit in all copies or substantial portions of this file.
+# Commercial use, redistribution, or removal of this notice is strictly prohibited
+# without prior written permission from the author.
+#
+# ❤️ Made with dedication and love by KRISHNA
+# -----------------------------------------------
+
+aiofiles
+aiohttp
+apscheduler
+beautifulsoup4
+dnspython
+ffmpeg-python
+gitpython
+gpytranslate
+gtts
+hachoir
+heroku3
+httpx
+motor
+numpy
+opencv-python
+Pillow
+psutil
+pickledb
+pycountry
+pycryptodome
+pydub
+pyfiglet
+python-dotenv
+pyshorteners
+pytz
+pyrofork
+py-tgcalls==0.9.7
+pyyaml
+requests
+spotipy==2.24.0
+speedtest
+speedtest-cli
+tgcrypto
+unidecode
+wget
+youtube-search-python
+py-yt-search
+yt-dlp
+
