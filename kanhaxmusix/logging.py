@@ -1,6 +1,6 @@
 # -----------------------------------------------
-# 🔸 ShashankMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
+# 🔸 kanhaxmuisx Project
+# 🔹 Developed & Maintained by: KRISHNA (https://github.com/krishnaji020210)
 # 📅 Copyright © 2025 – All Rights Reserved
 #
 # 📖 License:
@@ -9,7 +9,7 @@
 # Commercial use, redistribution, or removal of this notice is strictly prohibited
 # without prior written permission from the author.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication and love by KRISHNA
 # -----------------------------------------------
 
 import logging
