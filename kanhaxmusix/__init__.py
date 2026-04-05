@@ -14,21 +14,28 @@
 
 from kanhaxmusix.core.bot import Shashank
 from kanhaxmusix.core.dir import dirr
-# from kanhaxmusix.core.git import git
 from kanhaxmusix.core.userbot import Userbot
 from kanhaxmusix.misc import dbb, heroku
 
 from .logging import LOGGER
-from safoneapi import SafoneAPI
+
+# ✅ FIXED IMPORT
+from SafoneAPI import (
+    AppleAPI,
+    CarbonAPI,
+    SoundAPI,
+    SpotifyAPI,
+    RessoAPI,
+    TeleAPI,
+    YouTubeAPI
+)
 
 dirr()
-#git()
 dbb()
 heroku()
 
 app = Shashank()
 userbot = Userbot()
-
 
 from .platforms import *
 
@@ -39,4 +46,3 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
-
