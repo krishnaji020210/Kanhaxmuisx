@@ -1,3 +1,20 @@
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</p>
+
+<h1 align="center">🎵 Telegram Music Bot API</h1>
+<p align="center">
+  Stream Audio & Video in your Telegram Music Bots — fast, secure, and cookie-free.
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/license-Commercial-red.svg" alt="License Badge">
+</p>
+
+---
+
+
+
+
 <h2 align="center">
     ─「 KRISHNA 𝘅 𝐌ᴜsɪᴄ 」─
 
